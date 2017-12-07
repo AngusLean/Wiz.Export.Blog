@@ -1,7 +1,15 @@
 为知笔记导出工具，用于导出笔记为博客使用的格式。 
 
-## 当前仅仅实现了导出markdown笔记为[Hexo](https://hexo.io/zh-cn/docs/commands.html)的博客格式
-做的操作：
+## 功能
+ 当前仅仅实现了导出markdown笔记为[Hexo](https://hexo.io/zh-cn/docs/commands.html)的博客格式
+
+## 使用方式
+选中需要导出的笔记过后， 点击文件-导出为Hexo格式
+在弹出的对话中选择保存目录。点击确定过后当前的markdown
+文本便会被导出到目标为止，自动添加Hexo需要的头部信息。
+然后再自行发布到博客即可.
+
+## 原理：
 
 - 读取笔记的标签，并且在导出的文件头中添加
 
